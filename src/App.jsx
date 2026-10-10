@@ -17,8 +17,8 @@ export default function App() {
           <Focus />
           <Stack />
           <Experience />
-          <Work />
           <Education />
+          <Work />
           <Contact />
         </main>
         <footer className="ftr">

@@ -28,8 +28,8 @@ My personal portfolio: who I am, what I focus on, my experience, skills, selecte
 - **Focus**: the three areas I work on: agent platforms, secure MCP infrastructure and AI enablement.
 - **Stack**: my skills, grouped by area.
 - **Experience**: every role with its responsibilities and achievements.
-- **Work**: selected frontend projects, each with a screenshot, its stack, a live site link and a code link.
 - **Education**: my degree and executive training.
+- **Work**: selected frontend projects, each with a screenshot, its stack, a live site link and a code link.
 - **Contact**: email and LinkedIn, plus a form that sends a message straight to my inbox.
 - **Footer**: logo, social links and rights text.
 
@@ -72,7 +72,7 @@ src/
 └── components/
     ├── Header.jsx
     ├── Hero.jsx       # Intro and the orbiting skills
-    ├── Sections.jsx   # About, Focus, Stack, Experience, Work, Education
+    ├── Sections.jsx   # About, Focus, Stack, Experience, Education, Work
     ├── Contact.jsx    # Contact channels and the EmailJS form
     ├── Starfield.jsx  # tsParticles background
     └── Icons.jsx

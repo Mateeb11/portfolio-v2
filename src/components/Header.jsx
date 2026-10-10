@@ -15,8 +15,8 @@ export default function Header() {
           <a href="#focus">Focus</a>
           <a href="#stack">Stack</a>
           <a href="#experience">Experience</a>
-          <a href="#work">Work</a>
           <a href="#education">Education</a>
+          <a href="#work">Work</a>
           <a href="#contact">Contact</a>
         </nav>
         <div className="hdr__r">

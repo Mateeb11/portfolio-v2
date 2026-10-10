@@ -121,7 +121,7 @@ function CountriesSchematic() {
 export function Work() {
   return (
     <section className="sec" id="work">
-      <SectionHead tag="05 / Work">
+      <SectionHead tag="06 / Work">
         Selected frontend projects: the engineering foundation under the AI work.
       </SectionHead>
       <div className="work">
@@ -189,7 +189,7 @@ export function Experience() {
 export function Education() {
   return (
     <section className="sec" id="education">
-      <SectionHead tag="06 / Education">Education and training.</SectionHead>
+      <SectionHead tag="05 / Education">Education and training.</SectionHead>
       <div className="xp">
         {education.map((r) => (
           <div className="xp__row" key={r.title}>

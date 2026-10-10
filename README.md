@@ -20,3 +20,7 @@ npm run preview
 ## Content
 
 All text (hero, focus areas, stack, projects, experience, links) lives in `src/data.js`.
+
+## Deploy
+
+Pushing to `main` builds the site and publishes it to GitHub Pages at https://mateeb.com (see `.github/workflows/deploy.yml`). The contact form's EmailJS keys come from the repo secrets `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID` and `VITE_EMAILJS_PUBLIC_KEY`.

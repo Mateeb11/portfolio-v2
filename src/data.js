@@ -3,11 +3,30 @@
 export const links = {
   email: "mateeb.alh@gmail.com",
   linkedin: "https://www.linkedin.com/in/mateeb-alharbi/",
-  github: "https://github.com/mateeb-alharbi",
+  github: "https://github.com/Mateeb11",
 };
 
 export const hero = {
-  lede: "AI engineer and software engineer. I build agent platforms and the infrastructure behind them, including MCP servers, secure code execution and authentication, and take them from prototype to production.",
+  lede: "AI Enablement Engineer focused on preparing enterprise infrastructure for AI agents consumption and building internal tools that help stakeholders integrate AI agents into their workflows.",
+};
+
+// The bio, split into the steps of the path so it reads in short pieces.
+export const about = {
+  path: [
+    {
+      step: "Where I started",
+      text: "My path started with Computer Science at Umm Al-Qura University. I then worked as a frontend engineer at WAKI, building Angular features and learning how to ship and maintain software that real users depend on.",
+    },
+    {
+      step: "Joining Mobily",
+      text: "I joined Mobily through the Elite Graduate Development Program. I rotated across the technical departments, built PoCs, and completed an Executive Leadership Program with IE Business School, where our team won \"Most Feasible Project\" in Madrid. We closed the program by presenting our project to the CEO and executive leadership.",
+    },
+    {
+      step: "Today",
+      text: "Today I'm an AI & ML Senior Specialist at Mobily. I build agent platforms and the infrastructure behind them, including MCP servers, secure code execution and authentication, and I take them from prototype to production. I've taught agentic engineering to around 155 colleagues, benchmarked AI coding tools for leadership, and presented products to executives.",
+    },
+  ],
+  bring: "A software engineer's discipline (testing, security, clean delivery) applied to agentic AI, and the ability to explain it to both engineers and business teams.",
 };
 
 export const focus = [
@@ -146,5 +165,20 @@ export const experience = [
     where: "Smart Methods · Makkah",
     type: "Internship",
     bullets: [],
+  },
+];
+
+export const education = [
+  {
+    when: "2018 — 2023",
+    title: "B.Sc. Computer Science",
+    where: "Umm Al-Qura University · Makkah",
+    detail: "GPA 3.71 / 4, Second Honors",
+  },
+  {
+    when: "2026",
+    title: "Executive Leadership Program",
+    where: "Headspring · IE Business School · Madrid",
+    detail: "Part of Mobily's Elite Graduate Development Program. Our team won \"Most Feasible Project\".",
   },
 ];

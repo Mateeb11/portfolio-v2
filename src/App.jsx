@@ -1,7 +1,7 @@
 import Starfield from "./components/Starfield";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import { Focus, Stack, Work, Experience } from "./components/Sections";
+import { About, Focus, Stack, Work, Experience, Education } from "./components/Sections";
 import Contact from "./components/Contact";
 import { links } from "./data";
 
@@ -13,10 +13,12 @@ export default function App() {
       <div className="page">
         <main>
           <Hero />
+          <About />
           <Focus />
           <Stack />
-          <Work />
           <Experience />
+          <Work />
+          <Education />
           <Contact />
         </main>
         <footer className="ftr">

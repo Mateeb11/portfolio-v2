@@ -17,25 +17,25 @@ function HeroOrbit() {
       <div className="orbit-ring orbit-ring--2" />
       <div className="orbit-ring orbit-ring--3" />
 
-      {/* Inner orbit — agentic AI */}
+      {/* Inner orbit — core focus */}
       <div className="orb-spin orb-spin--1">
-        <Chip top="50%" left="100%">MCP</Chip>
-        <Chip top="50%" left="0%">AI agents</Chip>
+        <Chip top="50%" left="100%">Agentic AI</Chip>
+        <Chip top="50%" left="0%">MCP</Chip>
       </div>
 
-      {/* Middle orbit — backend & infra */}
+      {/* Middle orbit — how I work */}
       <div className="orb-spin orb-spin--2">
-        <Chip variant="alt" top="10%" left="50%">FastAPI</Chip>
-        <Chip variant="alt" top="90%" left="50%">OAuth</Chip>
-        <Chip variant="alt" top="50%" left="100%">Python</Chip>
+        <Chip variant="alt" top="0%" left="50%">AI Enablement</Chip>
+        <Chip variant="alt" top="75%" left="93%">Software Engineering</Chip>
+        <Chip variant="alt" top="75%" left="7%">Python</Chip>
       </div>
 
-      {/* Outer orbit — platform & foundation */}
+      {/* Outer orbit — tools */}
       <div className="orb-spin orb-spin--3">
-        <Chip variant="cool" top="20%" left="8%">TypeScript</Chip>
-        <Chip variant="cool" top="20%" left="92%">Google ADK</Chip>
-        <Chip variant="cool" top="85%" left="20%">Postgres</Chip>
-        <Chip variant="cool" top="85%" left="80%">GCP</Chip>
+        <Chip variant="cool" top="15%" left="15%">AI Agents</Chip>
+        <Chip variant="cool" top="15%" left="85%">Google ADK</Chip>
+        <Chip variant="cool" top="85%" left="15%">FastAPI</Chip>
+        <Chip variant="cool" top="85%" left="85%">GCP</Chip>
       </div>
 
       <div className="planet" />

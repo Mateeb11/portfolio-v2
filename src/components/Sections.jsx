@@ -1,4 +1,4 @@
-import { focus, stack, projects, experience } from "../data";
+import { about, focus, stack, projects, experience, education } from "../data";
 
 import ecommerce from "../assets/projects/E-commerce product page/desktop.png";
 import multistep from "../assets/projects/Multi-step form/desktop.png";
@@ -15,10 +15,35 @@ function SectionHead({ tag, children }) {
   );
 }
 
+export function About() {
+  return (
+    <section className="sec" id="about">
+      <SectionHead tag="01 / About">
+        From shipping software to building <em>agent platforms</em>.
+      </SectionHead>
+      <ol className="path">
+        {about.path.map((p, i) => (
+          <li className="path__step" key={p.step}>
+            <div className="path__label">
+              <span className="path__num">{String(i + 1).padStart(2, "0")}</span>
+              {p.step}
+            </div>
+            <p className="path__text">{p.text}</p>
+          </li>
+        ))}
+      </ol>
+      <p className="path__bring">
+        <span className="path__bring-label">What I bring</span>
+        {about.bring}
+      </p>
+    </section>
+  );
+}
+
 export function Focus() {
   return (
     <section className="sec" id="focus">
-      <SectionHead tag="01 / Focus">
+      <SectionHead tag="02 / Focus">
         Building <em>agent platforms</em> with the discipline of production software.
       </SectionHead>
       <div className="focus-grid">
@@ -40,7 +65,7 @@ export function Focus() {
 export function Stack() {
   return (
     <section className="sec" id="stack">
-      <SectionHead tag="02 / Stack">
+      <SectionHead tag="03 / Stack">
         A working toolkit for agentic AI, built on a software engineering foundation.
       </SectionHead>
       <div>
@@ -96,7 +121,7 @@ function CountriesSchematic() {
 export function Work() {
   return (
     <section className="sec" id="work">
-      <SectionHead tag="03 / Work">
+      <SectionHead tag="05 / Work">
         Selected frontend projects: the engineering foundation under the AI work.
       </SectionHead>
       <div className="work">
@@ -135,7 +160,7 @@ export function Experience() {
   return (
     <section className="sec" id="experience">
       <SectionHead tag="04 / Experience">
-        From software engineering to AI infrastructure.
+        From software engineering to AI Enablement.
       </SectionHead>
       <div className="xp">
         {experience.map((r) => (
@@ -154,6 +179,27 @@ export function Experience() {
               )}
             </div>
             <div className="xp__type">{r.type}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+export function Education() {
+  return (
+    <section className="sec" id="education">
+      <SectionHead tag="06 / Education">Education and training.</SectionHead>
+      <div className="xp">
+        {education.map((r) => (
+          <div className="xp__row" key={r.title}>
+            <div className="xp__when">{r.when}</div>
+            <div className="xp__main">
+              <h3>{r.title}</h3>
+              <div className="where">{r.where}</div>
+              <p>{r.detail}</p>
+            </div>
+            <div className="xp__type" />
           </div>
         ))}
       </div>

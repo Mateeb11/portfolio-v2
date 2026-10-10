@@ -57,9 +57,9 @@ export default function Contact() {
   return (
     <section className="sec" id="contact">
       <div className="sec__head">
-        <div className="sec__tag">05 / Contact</div>
+        <div className="sec__tag">07 / Contact</div>
         <h2 className="sec__title">
-          Building <em>agent platforms</em> and the infrastructure that lets AI agents use company systems safely.
+          Open to connecting about <em>agentic AI</em>, AI enablement and software engineering.
         </h2>
       </div>
       <div className="contact">
